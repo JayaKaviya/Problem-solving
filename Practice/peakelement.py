@@ -1,6 +1,6 @@
 #Finding the count of peak elements in an array where the Xor sum of left 
 # and right side elements are less than the peak element
-
+#here took count, if you want elemnt, just print it
 
 arr = [4, 2, 7, 3, 6]
 n = len(arr)
