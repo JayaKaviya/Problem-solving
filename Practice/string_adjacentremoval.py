@@ -29,4 +29,8 @@ for ch in s:
         stack.pop() 
     else:
         stack.append(ch) 
-print("".join(stack))
+print("".join(stack)) 
+
+# Complexity
+# Time  : O(n)
+# Space : O(n)
