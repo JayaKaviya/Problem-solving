@@ -74,7 +74,13 @@ for right in range(len(arr)):
 
     maximum = max(maximum, right - left + 1)
 
-print(maximum) 
+print(maximum)  
+
+# This is essentially the same pattern as:
+
+# Longest substring satisfying a condition.
+
+# Only the condition changes.
 
 # Time  : O(n)
 # Space : O(1)
