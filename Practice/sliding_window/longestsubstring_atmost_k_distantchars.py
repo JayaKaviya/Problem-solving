@@ -27,7 +27,6 @@ s = "eceba"
 k = 2
 
 freq = {}
-
 left = 0
 maximum = 0
 

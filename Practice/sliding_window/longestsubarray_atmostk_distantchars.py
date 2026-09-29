@@ -24,13 +24,11 @@ maxi=0
 for right in range(len(arr)):
     
     x=arr[right] 
-    
     freq[x]=freq.get(x,0)+1 
     
     while len(freq)>2:
         
         x=arr[left] 
-        
         freq[x]-=1 
         
         if freq[x]==0:
