@@ -23,13 +23,10 @@
 
 # ```text
 # Calculate value/weight → O(n)
-
 # Sort items            → O(n log n)
-
 # Process items         → O(n)
 
 # Overall Time           → O(n log n)
-
 # Space                  → O(n)
 # ```
 
