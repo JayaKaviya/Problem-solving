@@ -63,4 +63,9 @@ for ratio, weight, value in items:
         total += ratio * capacity
         break
 
-print(total)
+print(total) 
+
+
+# Because fractional knapsack allows us to take part of an item, so choosing the highest value/weight item first can always be continued proportionally.
+
+# In 0/1 knapsack(another problem), taking one item can prevent a better combination of whole items, so dynamic programming is generally required.
