@@ -1,8 +1,9 @@
 # ### Minimum Platforms — Question : Not Greedy : Two pointer approach
 
 
-# > **Given the arrival and departure times of `N` trains at a railway station, find the minimum number of platforms required so that no train has to wait.**
-# >
+# > **Given the arrival and departure times of `N` trains at a railway station, 
+# find the minimum number of platforms required so that no train has to wait.**
+# 
 # > A platform cannot be used by another train until the current train has departed.
 
 # Example:
