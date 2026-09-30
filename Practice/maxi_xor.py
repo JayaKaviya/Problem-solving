@@ -1,6 +1,7 @@
 ### Short Question
 
-# **Given an array of `N` elements (`N` is even), choose at most `N/2` elements such that their XOR is maximum. Return the maximum possible XOR.**
+# **Given an array of `N` elements (`N` is even), 
+# choose at most `N/2` elements such that their XOR is maximum. Return the maximum possible XOR.**
 
 # **Example:**
 
