@@ -14,11 +14,11 @@
 # [11]       → 11
 # [1, 5, 5]  → 11 
 
+#if the total sum is odd, we cannot divide it into two equal subsets. 
+# If the total sum is even, we can check if there is a subset with sum equal to total // 2.
 
 arr = [1, 5, 11, 5]
-
 total = sum(arr)
-
 if total % 2 != 0:
     print(False)
 else:
