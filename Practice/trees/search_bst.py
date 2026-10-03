@@ -41,3 +41,38 @@ if result:
   print(f"Found the node with value: {result.data}")
 else:
   print("Value not found in the BST.")
+ 
+ 
+ 
+# Operation	Time	Auxiliary Space
+# BST Search	O(h)	O(h)
+# BST Insertion	O(h)	O(h)
+
+# Where h = height of the BST.
+
+# Cases
+
+# Balanced BST:
+
+# h = O(log n)
+
+# So:
+
+# Time  = O(log n)
+# Space = O(log n)
+
+# Worst-case skewed BST:
+
+# h = O(n)
+
+# So:
+
+# Time  = O(n)
+# Space = O(n)
+# What to write in an interview
+
+# For both:
+
+# Time: O(h), where h is the height of the BST. 
+# O(log n) for a balanced BST and O(n) in the worst case. 
+# Auxiliary space: O(h) due to recursion.
