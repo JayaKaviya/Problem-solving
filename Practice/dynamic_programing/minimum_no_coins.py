@@ -12,7 +12,6 @@
 # amount = 6
 
 # Minimum coins:
-
 # 3 + 3 = 6
 
 # Answer:
@@ -33,7 +32,7 @@ for i in range(1, amount + 1):
     for coin in coins:
         if coin <= i:
             dp[i] = min(dp[i], dp[i - coin] + 1)
-
+            
 if dp[amount] == float('inf'):
     print(-1)
 else:
