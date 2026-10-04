@@ -29,6 +29,8 @@
 
 # Both require 2 edges. 
 # BFS → shortest path when every edge has equal cost.
+# Dijkstra → shortest path when edges have different non-negative costs.
+
 
 from collections import deque
 
