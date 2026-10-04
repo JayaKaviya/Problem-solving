@@ -28,7 +28,7 @@
 # 0 → 2 → 3
 
 # Both require 2 edges. 
-
+# BFS → shortest path when every edge has equal cost.
 
 from collections import deque
 
