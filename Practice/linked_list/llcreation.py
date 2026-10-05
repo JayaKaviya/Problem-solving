@@ -14,4 +14,9 @@ currenNode=node1
 while currenNode:
    print(currenNode.data,end="->")
    currenNode=currenNode.next  
-print("null")
+print("null") 
+
+
+#here curreNode or head=node1 is equal , which is head is just the pointer / reference to the first node of the linked list.
+#head.val= 2 (as output)
+# head.next = node2 (which is 3 as output)
