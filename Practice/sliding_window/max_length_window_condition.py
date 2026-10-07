@@ -1,7 +1,8 @@
 # Maximum Length of a Window Under a Given Condition
 # Question
 
-# Given an array of positive integers and an integer k, find the maximum length of a contiguous subarray whose sum is less than or equal to k.
+# Given an array of positive integers and an integer k,
+# find the maximum length of a contiguous subarray whose sum is less than or equal to k.
 
 # Example
 # arr = [2, 1, 5, 1, 3, 2]
