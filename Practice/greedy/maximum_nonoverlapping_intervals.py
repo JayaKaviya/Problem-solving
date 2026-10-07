@@ -1,4 +1,4 @@
-# Maximum Non-overlapping Intervals
+# 1.Maximum Non-overlapping Intervals
 
 # Approach used: Greedy + Sorting
 
@@ -85,4 +85,86 @@ print(maxNonOverlapping(intervals))
 # Pick the first interval.
 # For every next interval:
 # If its start >= previous_end, select it.
-# Update previous_end.
+# Update previous_end. 
+
+
+# 2.Maximum Non-overlapping Intervals → Minimum Removals
+# Question
+
+# Given an array of intervals, return the minimum number of intervals that must be removed so that the remaining intervals do not overlap.
+
+# Intervals that touch at a point are considered non-overlapping.
+
+# Example:
+
+# intervals = [[1,2], [2,3], [3,4], [1,3]]
+
+# We can keep:
+
+# [1,2] → [2,3] → [3,4]
+
+# So we keep 3 intervals.
+
+# There are 4 intervals total.
+
+# Therefore:
+
+# minimum removals = total intervals - maximum non-overlapping intervals
+# = 4 - 3
+# = 1  #LC QUESTION
+
+class Solution:
+    def eraseOverlapIntervals(self, intervals: list[list[int]]) -> int:
+
+        intervals.sort(key=lambda x: x[1])
+
+        maximum = 0
+        previous_end = float('-inf')
+
+        for start, end in intervals:
+
+            if start >= previous_end:
+                maximum += 1
+                previous_end = end
+
+        return len(intervals) - maximum 
+    
+    
+# Complexity
+# Sorting: O(n log n)
+# Loop: O(n)
+# Total: O(n log n)
+# Extra space: O(1) apart from sorting.
+# Remember this formula
+# ┌────────────────────────────────────────┐
+# │ Minimum removals = Total - Maximum kept│
+# └────────────────────────────────────────┘ 
+
+# Example
+# [1,2]
+# [2,3]
+# [3,4]
+# [1,3]
+
+# After sorting by end:
+
+# [1,2]
+# [2,3]
+# [1,3]
+# [3,4]
+
+# Select:
+
+# [1,2]  → keep
+# [2,3]  → keep
+# [1,3]  → remove
+# [3,4]  → keep
+
+# Therefore:
+
+# total = 4
+# maximum = 3
+
+# answer = total - maximum
+#        = 4 - 3
+#        = 1
