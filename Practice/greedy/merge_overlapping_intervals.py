@@ -1,6 +1,7 @@
 # ## Merge Overlapping Intervals — Question
 
-# > **Given a collection of intervals, merge all overlapping intervals and return the resulting non-overlapping intervals.**
+# > **Given a collection of intervals, merge all overlapping intervals 
+# and return the resulting non-overlapping intervals.**
 
 # ### Example
 
