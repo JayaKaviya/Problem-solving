@@ -72,4 +72,8 @@ for i in range(N - 1, -1, -1):
 
     answer = i
 
-print(answer)
+print(answer) 
+
+# The output is:
+
+# 0

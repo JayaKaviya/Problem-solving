@@ -1,4 +1,4 @@
-# XOR Left & Right Comparison
+# XOR Left & Right Comparison - Peak element and this question same
 # Problem
 
 # Given an array, count the elements for which:

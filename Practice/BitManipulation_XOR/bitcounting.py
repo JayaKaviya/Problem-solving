@@ -70,7 +70,10 @@ print(count)
 ### Complexity
 
 # Time  : O(k)
-# Space : O(1)
+# # Space : O(1) 
+# k = number of 1-bits
+
+# and each loop removes exactly one 1-bit, then the loop executes exactly k times.
 
 
 # Since the maximum number of `1` bits is at most the number of binary digits:
