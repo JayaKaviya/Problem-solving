@@ -4,7 +4,8 @@
 # arr[i] + arr[j] = 0
 # j % 2 != 0 — the second index j must be odd.
 
-# Because the pairs are unordered, (i, j) and (j, i) are considered the same pair. Using i < j ensures we count each pair only once.
+# Because the pairs are unordered, (i, j) and (j, i) are considered the same pair. 
+# Using i < j ensures we count each pair only once.
 
 # Example
 # arr = [-2, 5, 2, -5, 5]

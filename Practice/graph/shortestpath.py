@@ -1,7 +1,9 @@
 # Shortest Path in an Unweighted Graph ⭐⭐⭐⭐⭐
 # Question
 
-# Given an unweighted graph, a source node, and a destination node, find the minimum number of edges needed to travel from the source to the destination. Return -1 if the destination cannot be reached.
+# Given an unweighted graph, a source node, and a destination node,
+# find the minimum number of edges needed to travel from the source to the destination. 
+# Return -1 if the destination cannot be reached.
 
 # Recognize it
 

@@ -1,6 +1,7 @@
 ### Short Question
 
-# Given a string `S`, you can **rearrange its characters in any order** and then split it into the **maximum number of identical contiguous pieces**.
+# Given a string `S`, you can **rearrange its characters in any order** and 
+# then split it into the **maximum number of identical contiguous pieces**.
 
 # Find the **maximum number of pieces** possible.
 

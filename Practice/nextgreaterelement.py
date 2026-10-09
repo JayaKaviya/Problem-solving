@@ -1,6 +1,7 @@
 # Next Greater Element to the Right
 
-# Given an array, find the first greater element on the right for each element. If no greater element exists, return -1.
+# Given an array, find the first greater element on the right for each element. 
+# If no greater element exists, return -1.
 
 # Example:
 
